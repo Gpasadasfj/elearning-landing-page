@@ -1,0 +1,21 @@
+@use "../abstracts/index" as *;
+
+.container {
+  padding: 0 16px;
+  margin: auto;
+
+  @include breakpoint(tablet) {
+    padding: 0 39px;
+  }
+  @include breakpoint(tablethorizontal) {
+    padding: 0 60px;
+  }
+
+  @include breakpoint(desktop) {
+    padding: 0 150px;
+  }
+
+  @include breakpoint(desktopxl) {
+    padding: 0 250px;
+  }
+}

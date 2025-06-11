@@ -1,0 +1,23 @@
+// Variables genéricas
+
+// Devices sizes
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1200px;
+$bp-desktop-xl: 1440px;
+
+// Colors
+$light-blue: #666ca3;
+$dark-blue: #13183f;
+$grey: #83869a;
+$pink: #f74780;
+$light-pink: #ffa7c3;
+$white: #ffffff;
+$backgroun-gray: #f1f2ff;
+
+$orange-pink: linear-gradient(to bottom, #ff6f48, #f02aa6);
+$blue-pink: linear-gradient(to bottom, #4851ff, #f02aa6);
+$background-color: linear-gradient(to bottom, $white, $backgroun-gray);
+
+// Fonts
+$primary-font: "Plus Jakarta Sans", sans-serif;

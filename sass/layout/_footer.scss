@@ -1,0 +1,14 @@
+@use "../abstracts/index" as *;
+.main-footer {
+  background-color: $dark-blue;
+  padding: 20px 0px;
+  @include breakpoint(desktopxl) {
+    padding: 40px 0px;
+  }
+  .container {
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

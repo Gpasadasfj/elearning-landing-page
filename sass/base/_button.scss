@@ -1,0 +1,13 @@
+@use "../abstracts/index" as *;
+
+.button-dark {
+  @include button-dark();
+}
+
+.button-orange {
+  @include button-orange();
+}
+
+.button-pink {
+  @include button-pink();
+}

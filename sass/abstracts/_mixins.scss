@@ -1,0 +1,91 @@
+// Mixins genéricos
+@use "variables" as *;
+
+@mixin breakpoint($bp) {
+  @if $bp == tablet {
+    @media (min-width: $bp-tablet) {
+      @content;
+    }
+  }
+
+  @if $bp == tablethorizontal {
+    @media (min-width: $bp-tablet-horizontal) {
+      @content;
+    }
+  }
+
+  @if $bp == desktop {
+    @media (min-width: $bp-desktop) {
+      @content;
+    }
+  }
+
+  @if $bp == desktopxl {
+    @media (min-width: $bp-desktop-xl) {
+      @content;
+    }
+  }
+}
+
+@mixin reset-list() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin button() {
+  padding: 10px 0px 30px;
+  border-radius: 30px;
+  color: $pink;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@mixin button-dark() {
+  background-color: $dark-blue;
+  color: $white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  @include breakpoint(desktopxl) {
+    margin-top: 100px;
+    padding: 30px 60px;
+    font-size: 24px;
+    border-radius: 50px;
+  }
+  &:hover {
+    background-color: $light-blue;
+  }
+}
+
+@mixin button-orange() {
+  background: $orange-pink;
+  color: $white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  @include breakpoint(desktopxl) {
+    margin-top: 100px;
+    padding: 30px 60px;
+    font-size: 24px;
+    border-radius: 50px;
+  }
+  &:hover {
+    opacity: 0.6;
+  }
+}
+
+@mixin button-pink() {
+  background: $blue-pink;
+  color: $white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  @include breakpoint(desktopxl) {
+    margin-top: 100px;
+    padding: 30px 60px;
+    font-size: 24px;
+    border-radius: 50px;
+  }
+  &:hover {
+    opacity: 0.6;
+  }
+}

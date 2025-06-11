@@ -1,0 +1,44 @@
+@use "../abstracts/index" as *;
+
+// Tipografía base genérica
+html * {
+  font-family: $primary-font;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 70px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 51px;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 800;
+}
+
+.body-M {
+  font-size: 18px;
+  line-height: 28px;
+  color: $grey;
+  font-weight: 500;
+}
+
+.body-S {
+  font-size: 16px;
+  line-height: 28px;
+  color: $grey;
+  font-weight: 500;
+}
