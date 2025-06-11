@@ -16,7 +16,7 @@
   }
 
   @include breakpoint(desktopxl) {
-    margin-top: 400px;
+    margin-top: 200px;
   }
   .container {
     @include breakpoint(tablet) {

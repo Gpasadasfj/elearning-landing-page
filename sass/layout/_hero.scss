@@ -28,8 +28,6 @@
     }
 
     @include breakpoint(desktopxl) {
-      max-width: 1600px;
-      font-size: 100px;
       margin-top: 200px;
     }
   }
@@ -51,9 +49,7 @@
     }
 
     @include breakpoint(desktopxl) {
-      font-size: 34px;
-      max-width: 1000px;
-      margin-top: 90px;
+      margin-top: 30px;
     }
   }
   &__button {
@@ -101,7 +97,7 @@
 
       @include breakpoint(desktopm) {
         top: -301px;
-        right: 199px
+        right: 199px;
       }
 
       @include breakpoint(desktopl) {
@@ -111,8 +107,8 @@
 
       @include breakpoint(desktopxl) {
         padding: 30px;
-        top: -460px;
-        right: 120px;
+        top: -412px;
+        right: 70px;
       }
 
       &__title {
@@ -161,7 +157,7 @@
 
       @include breakpoint(desktopm) {
         top: 74px;
-        left: 701px;;
+        left: 701px;
       }
 
       @include breakpoint(desktopl) {
@@ -171,8 +167,8 @@
 
       @include breakpoint(desktopxl) {
         padding: 30px;
-        top: -100px;
-        left: 2200px;
+        top: 25px;
+        left: 1492px;
       }
 
       &__title {
