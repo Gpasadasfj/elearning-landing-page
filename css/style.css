@@ -33,7 +33,7 @@ body {
   padding: 15px 30px;
   border-radius: 30px;
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .button-dark {
     margin-top: 100px;
     padding: 30px 60px;
@@ -51,7 +51,7 @@ body {
   padding: 15px 30px;
   border-radius: 30px;
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .button-orange {
     margin-top: 100px;
     padding: 30px 60px;
@@ -69,7 +69,7 @@ body {
   padding: 15px 30px;
   border-radius: 30px;
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .button-pink {
     margin-top: 100px;
     padding: 30px 60px;
@@ -181,17 +181,17 @@ h4 {
     background-size: 50%;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .bg-image {
     background-size: 40%;
-    background-position: top -300px right -400px;
+    background-position: top -188px right -233px;
   }
 }
 .main-footer {
   background-color: #13183f;
   padding: 20px 0px;
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .main-footer {
     padding: 40px 0px;
   }
@@ -211,7 +211,7 @@ h4 {
     padding-top: 34px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .main-header {
     padding-top: 50px;
   }
@@ -225,7 +225,7 @@ h4 {
   margin-left: auto;
 }
 
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .logo {
     width: 5%;
   }
@@ -263,10 +263,8 @@ h4 {
     margin-top: 160px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .hero__title {
-    max-width: 1600px;
-    font-size: 100px;
     margin-top: 200px;
   }
 }
@@ -290,11 +288,9 @@ h4 {
     margin-top: 40px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .hero__subtitle {
-    font-size: 34px;
-    max-width: 1000px;
-    margin-top: 90px;
+    margin-top: 30px;
   }
 }
 .hero__button {
@@ -310,7 +306,7 @@ h4 {
     margin-top: 40px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .hero__button {
     margin-top: 130px;
   }
@@ -362,11 +358,11 @@ h4 {
     right: 183px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .hero__img-members {
     padding: 30px;
-    top: -460px;
-    right: 120px;
+    top: -412px;
+    right: 70px;
   }
 }
 .hero__img-members__title {
@@ -430,11 +426,11 @@ h4 {
     left: 1008px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .hero__img-course {
     padding: 30px;
-    top: -100px;
-    left: 2200px;
+    top: 25px;
+    left: 1492px;
   }
 }
 .hero__img-course__title {
@@ -465,7 +461,7 @@ h4 {
     padding: 0 150px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .container {
     padding: 0 250px;
   }
@@ -494,9 +490,9 @@ nav {
     margin-top: 400px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .activities {
-    margin-top: 400px;
+    margin-top: 200px;
   }
 }
 @media (min-width: 768px) {
@@ -506,7 +502,7 @@ nav {
     gap: 11px;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .activities .container {
     gap: 11px 60px;
   }
@@ -534,7 +530,7 @@ nav {
     width: 32%;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .activities__title {
     width: 30%;
   }
@@ -559,7 +555,7 @@ nav {
     width: 32%;
   }
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .activities__item {
     width: 30%;
   }
@@ -580,7 +576,7 @@ nav {
   font-weight: 800;
   margin-top: 56px;
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .activities__item-title {
     font-size: 32px;
   }
@@ -590,7 +586,7 @@ nav {
   font-weight: 500;
   font-size: 16px;
 }
-@media (min-width: 3400px) {
+@media (min-width: 2560px) {
   .activities__item-subtitle {
     font-size: 24px;
   }
