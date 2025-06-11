@@ -4,43 +4,4 @@ body {
   min-height: 100vh;
   color: #000;
   line-height: 1.5;
-  @include breakpoint(tablet) {
-    .bg-image {
-      background-image: url("/img/woman.png");
-      background-repeat: no-repeat;
-      background-position: top -100px right -320px;
-      background-size: 650px;
-      z-index: 1;
-    }
-  }
-  @include breakpoint(tablethorizontal) {
-    .bg-image {
-      background-size: 80%;
-      background-position: top -150px right -400px;
-    }
-  }
-  @include breakpoint(desktop) {
-    .bg-image {
-      background-size: 60%;
-      background-position: top -150px right -300px;
-    }
-  }
-
-  @include breakpoint(desktopxl) {
-    .bg-image {
-      background-size: 40%;
-      background-position: top -300px right -400px;
-    }
-  }
-}
-
-.background {
-  background: $background-color;
-  z-index: -1;
-}
-
-.logo {
-  @include breakpoint(desktopxl) {
-    width: 5%;
-  }
 }

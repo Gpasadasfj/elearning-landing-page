@@ -19,3 +19,9 @@
     }
   }
 }
+
+.logo {
+  @include breakpoint(desktopxl) {
+    width: 5%;
+  }
+}

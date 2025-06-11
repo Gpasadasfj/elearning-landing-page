@@ -1,0 +1,40 @@
+@use "../abstracts/index" as *;
+
+@include breakpoint(tablet) {
+  .page {
+    max-width: 800px;
+    margin: auto;
+  }
+}
+@include breakpoint(tablethorizontal) {
+  .page {
+    max-width: $bp-tablet-horizontal;
+    margin: auto;
+  }
+}
+@include breakpoint(desktop) {
+  .page {
+    max-width: 1300px;
+    margin: auto;
+  }
+}
+@include breakpoint(desktopm) {
+  .page {
+    max-width: 1600px;
+    margin: auto;
+  }
+}
+
+@include breakpoint(desktopl) {
+  .page {
+    max-width: $bp-desktop-l;
+    margin: auto;
+  }
+
+  @include breakpoint(desktopxl) {
+    .page {
+      max-width: $bp-desktop-xl;
+      margin: auto;
+    }
+  }
+}

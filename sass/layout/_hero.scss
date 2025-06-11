@@ -22,6 +22,11 @@
       font-size: 56px;
     }
 
+    @include breakpoint(desktopl) {
+      max-width: 1000px;
+      margin-top: 160px;
+    }
+
     @include breakpoint(desktopxl) {
       max-width: 1600px;
       font-size: 100px;
@@ -39,6 +44,12 @@
     @include breakpoint(desktop) {
       font-size: 18px;
     }
+
+    @include breakpoint(desktopl) {
+      max-width: 800px;
+      margin-top: 40px;
+    }
+
     @include breakpoint(desktopxl) {
       font-size: 34px;
       max-width: 1000px;
@@ -48,6 +59,9 @@
   &__button {
     margin-top: 30px;
     @include breakpoint(tablet) {
+      margin-top: 40px;
+    }
+    @include breakpoint(desktopl) {
       margin-top: 40px;
     }
     @include breakpoint(desktopxl) {
@@ -81,8 +95,18 @@
       }
 
       @include breakpoint(desktop) {
-        top: -230px;
-        right: 0px;
+        top: -396px;
+        right: 53px;
+      }
+
+      @include breakpoint(desktopm) {
+        top: -301px;
+        right: 183px;
+      }
+
+      @include breakpoint(desktopl) {
+        top: -211px;
+        right: 214px;
       }
 
       @include breakpoint(desktopxl) {
@@ -131,8 +155,18 @@
       }
 
       @include breakpoint(desktop) {
-        top: -10px;
-        left: 700px;
+        top: -60px;
+        left: 541px;
+      }
+
+      @include breakpoint(desktopm) {
+        top: 46px;
+        left: 646px;
+      }
+
+      @include breakpoint(desktopl) {
+        top: 170px;
+        left: 1008px;
       }
 
       @include breakpoint(desktopxl) {

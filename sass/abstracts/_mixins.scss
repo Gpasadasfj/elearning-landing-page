@@ -20,6 +20,18 @@
     }
   }
 
+  @if $bp == desktopm {
+    @media (min-width: $bp-desktop-m) {
+      @content;
+    }
+  }
+
+  @if $bp == desktopl {
+    @media (min-width: $bp-desktop-l) {
+      @content;
+    }
+  }
+
   @if $bp == desktopxl {
     @media (min-width: $bp-desktop-xl) {
       @content;

@@ -11,6 +11,10 @@
     margin-top: 250px;
   }
 
+  @include breakpoint(desktopl) {
+    margin-top: 400px;
+  }
+
   @include breakpoint(desktopxl) {
     margin-top: 400px;
   }
