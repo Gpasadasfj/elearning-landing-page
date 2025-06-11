@@ -157,7 +157,7 @@ h4 {
 
 @media (min-width: 768px) {
   .bg-image {
-    background-image: url("/img/woman.png");
+    background-image: url("../img/woman.png");
     background-repeat: no-repeat;
     background-position: top -100px right -320px;
     background-size: 650px;
@@ -170,13 +170,13 @@ h4 {
     background-position: top -150px right -400px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .bg-image {
     background-size: 60%;
     background-position: top -150px right -200px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .bg-image {
     background-size: 50%;
   }
@@ -185,42 +185,6 @@ h4 {
   .bg-image {
     background-size: 40%;
     background-position: top -300px right -400px;
-  }
-}
-@media (min-width: 768px) {
-  .page {
-    max-width: 800px;
-    margin: auto;
-  }
-}
-@media (min-width: 1024px) {
-  .page {
-    max-width: 1024px;
-    margin: auto;
-  }
-}
-@media (min-width: 1200px) {
-  .page {
-    max-width: 1300px;
-    margin: auto;
-  }
-}
-@media (min-width: 1600px) {
-  .page {
-    max-width: 1600px;
-    margin: auto;
-  }
-}
-@media (min-width: 2000px) {
-  .page {
-    max-width: 2000px;
-    margin: auto;
-  }
-}
-@media (min-width: 2000px) and (min-width: 3400px) {
-  .page {
-    max-width: 3400px;
-    margin: auto;
   }
 }
 .main-footer {
@@ -288,12 +252,12 @@ h4 {
     max-width: 400px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .hero__title {
     font-size: 56px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .hero__title {
     max-width: 1000px;
     margin-top: 160px;
@@ -315,12 +279,12 @@ h4 {
     max-width: 398px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .hero__subtitle {
     font-size: 18px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .hero__subtitle {
     max-width: 800px;
     margin-top: 40px;
@@ -341,7 +305,7 @@ h4 {
     margin-top: 40px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .hero__button {
     margin-top: 40px;
   }
@@ -380,22 +344,22 @@ h4 {
     right: -10px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .hero__img-members {
-    top: -396px;
-    right: 53px;
+    top: -350px;
+    right: 118px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1680px) {
   .hero__img-members {
     top: -301px;
-    right: 183px;
+    right: 199px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .hero__img-members {
     top: -211px;
-    right: 214px;
+    right: 183px;
   }
 }
 @media (min-width: 3400px) {
@@ -448,19 +412,19 @@ h4 {
     left: 570px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .hero__img-course {
-    top: -60px;
-    left: 541px;
+    top: -26px;
+    left: 587px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1680px) {
   .hero__img-course {
-    top: 46px;
-    left: 646px;
+    top: 74px;
+    left: 701px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .hero__img-course {
     top: 170px;
     left: 1008px;
@@ -496,7 +460,7 @@ h4 {
     padding: 0 60px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .container {
     padding: 0 150px;
   }
@@ -520,12 +484,12 @@ nav {
     margin-top: 180px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .activities {
     margin-top: 250px;
   }
 }
-@media (min-width: 2000px) {
+@media (min-width: 1920px) {
   .activities {
     margin-top: 400px;
   }
@@ -565,7 +529,7 @@ nav {
     margin-top: 40px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .activities__title {
     width: 32%;
   }
@@ -590,7 +554,7 @@ nav {
     width: 48%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .activities__item {
     width: 32%;
   }
